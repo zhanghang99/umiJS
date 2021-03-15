@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-02-24 17:17:49
- * @LastEditTime: 2021-03-05 10:51:29
+ * @LastEditTime: 2021-03-12 17:56:49
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \UmiJS\src\models\hero.tsx
@@ -27,7 +27,7 @@ const HeroModel: HeroModelType = {
   namespace: 'hero',
 
   state: {
-    name: 'hero123',
+    name: 'redux',
   },
 
   // 有副作用的时候使用effects来触发reducers修改state

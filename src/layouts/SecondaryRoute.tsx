@@ -1,11 +1,8 @@
 /*
  * @Author: porter_zhang
  * @Date: 2021-03-05 14:00:29
- * @LastEditTime: 2021-03-05 14:31:15
+ * @LastEditTime: 2021-03-12 17:52:51
  */
-import TopMenu from '../components/TopMenu/TopMenu';
-import LeftMent from '../components/LeftMenu/LeftMenu';
-
 export default function(props) {
     console.log(props,'---props1---');
     return (
