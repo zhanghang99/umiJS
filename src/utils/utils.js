@@ -1,9 +1,8 @@
 /*
  * @Author: porter_zhang
  * @Date: 2021-03-22 09:37:06
- * @LastEditTime: 2021-03-22 15:18:10
+ * @LastEditTime: 2021-03-22 16:51:59
  */
-import VConsole from 'VConsole';
 /**
  * 获取url参数值
  * @method getUrlParam
@@ -62,6 +61,8 @@ export const IsPC = () => {
  */
 export const Vconsole = () => {
   if (!IsPC() && process.env.ENV == 'dev') {
-    var vConsole = new VConsole();
+    import('vConsole').then((vConsole) => {
+      new vConsole.default();
+    });
   }
 };
