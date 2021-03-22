@@ -1,1 +1,129 @@
-/* 默认全局样式 */
+@charset "utf-8";
+html {
+  font-size: 14px;
+  font-family: 'pingfang SC', 'helvetica neue', arial, 'hiragino sans gb', 'microsoft yahei ui', 'microsoft yahei', simsun, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body,
+button,
+dd,
+div,
+dl,
+dt,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+li,
+ol,
+p,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+}
+
+em,
+i {
+  font-weight: 400;
+  font-style: normal;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: PingFangSC-Light, 'STHeiti Light', 'helvetica neue', 'hiragino sans gb', arial, 'microsoft yahei ui', 'microsoft yahei', simsun, sans-serif;
+}
+
+button,
+input,
+select {
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+}
+
+button,
+input[type='button'],
+input[type='submit'],
+select {
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a img,
+fieldset,
+iframe,
+img {
+  border-style: none;
+  border-width: 0;
+}
+
+.clearfix:after,
+.clearfix:before {
+  display: table;
+  content: '';
+}
+
+.clearfix:after {
+  clear: both;
+}
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  overflow: hidden;
+  border: 0 !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.textoverflow {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-wrap: normal;
+  word-break: break-all;
+}
+[class*='rno-'],
+[class*='rno-']:after,
+[class*='rno-']:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
